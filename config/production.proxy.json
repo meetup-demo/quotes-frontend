@@ -1,0 +1,7 @@
+{
+  "/quote": {
+    "target": "https://quotes-backend.herokuapp.com",
+    "secure": true,
+    "changeOrigin": true
+  }
+}

@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<header>
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <h2>Version {{version}}</h2>
+</header>
+<main>
+  <div class="jumbotron">
+    <h1 class="display-4">Daily Quote:</h1>
+    <p class="lead">{{quote}}</p>
+    <p>{{quoteSource}}</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button" (click)="getQuote()">Get a quote</a>
+  </div>
+</main>
+
