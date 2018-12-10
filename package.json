@@ -8,8 +8,7 @@
     "dev:local": "ng serve --proxy-config config/local.proxy.json",
     "build": "ng build --prod",
     "test": "ng test",
-    "lint": "ng lint",
-    "postinstall": "npm run build"
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
