@@ -15,6 +15,9 @@ install: npm install
 script:
   - npm run lint
 
+before_deploy:
+  - npm run build
+  
 deploy:
   provider: heroku
   api_key:
